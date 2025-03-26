@@ -15,6 +15,7 @@ namespace NaturalLanguageProcessing
         private static readonly string API_KEY = "Myqy0ljyiJpYlVXJr4fBJNaw";
         private static readonly string SECRET_KEY = "sBAEETipYCZyGw7lFQULba9mRj9Gmy9q";
         JObject res = null;
+
         #region 查表
         // 词性表
         private readonly Dictionary<string, string> POSTable =
@@ -148,8 +149,10 @@ namespace NaturalLanguageProcessing
                 return false;
             }
             //校验文本长度
-            byte[] bytes = Encoding.UTF8.GetBytes(text);
-            if (bytes.Length > max)
+            Encoding gbkEncoding = Encoding.GetEncoding("GBK");
+            int byteCount = gbkEncoding.GetByteCount(text);
+            MessageBox.Show(byteCount.ToString());
+            if (byteCount > max)
             {
                 MessageBox.Show(obj + "文本太长，不能超过" + max + "字节！");
                 return false;

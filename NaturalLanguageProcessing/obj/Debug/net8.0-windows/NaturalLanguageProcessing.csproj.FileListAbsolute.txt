@@ -18,3 +18,4 @@ D:\workspace\cSharp\NaturalLanguageProcessing\NaturalLanguageProcessing\bin\Debu
 D:\workspace\cSharp\NaturalLanguageProcessing\NaturalLanguageProcessing\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 D:\workspace\cSharp\NaturalLanguageProcessing\NaturalLanguageProcessing\obj\Debug\net8.0-windows\NaturalLanguageProcessing.csproj.AssemblyReference.cache
 D:\workspace\cSharp\NaturalLanguageProcessing\NaturalLanguageProcessing\obj\Debug\net8.0-windows\NaturalL.E34796CD.Up2Date
+D:\workspace\cSharp\NaturalLanguageProcessing\NaturalLanguageProcessing\obj\Debug\net8.0-windows\NaturalLanguageProcessing.sourcelink.json
